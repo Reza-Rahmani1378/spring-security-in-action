@@ -28,25 +28,25 @@ A personal practice to cover Spring Security  based on [this](https://www.amazon
 
 ## Contents to cover in detail
 ### 1. Security Today <a name="security_today"></a>
-- [] Spring Security: The what and the why
-- [] What is software security?
-- [] Why is security important?
-- [] Common security vulnerabilities in web applications
-- [] Security applied in various architectures
-- [] What will you learn in this book?
+- [ ] Spring Security: The what and the why
+- [ ] What is software security?
+- [ ] Why is security important?
+- [ ] Common security vulnerabilities in web applications
+- [ ] Security applied in various architectures
+- [ ] What will you learn in this book?
 ### 2. Complexity Analysis <a name="complexity_analysis"></a>
-- [] Computational and Asymptotic Complexity
-- [] Big-O Notation
-- [] Properties of Big-O Notation
-- [] Ω and Θ Notations
-- [] Possible Problems
-- [] Examples of Complexities
-- [] Finding Asymptotic Complexity: Examples
-- [] The Best, Average, and Worst Cases
-- [] Amortized Complexity
-- [] NP-Completeness
+- [ ] Computational and Asymptotic Complexity
+- [ ] Big-O Notation
+- [ ] Properties of Big-O Notation
+- [ ] Ω and Θ Notations
+- [ ] Possible Problems
+- [ ] Examples of Complexities
+- [ ] Finding Asymptotic Complexity: Examples
+- [ ] The Best, Average, and Worst Cases
+- [ ] Amortized Complexity
+- [ ] NP-Completeness
 ### 3. Linked Lists  <a name="linked_lists"></a>
-- [] Singly Linked Lists
+- [ ] Singly Linked Lists
 - [ ] Doubly Linked Lists
 - [ ] Circular Lists
 - [ ] Skip Lists
