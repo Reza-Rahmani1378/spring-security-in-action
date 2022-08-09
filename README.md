@@ -28,7 +28,7 @@ A personal practice to cover Spring Security  Based on [this](https://www.amazon
 
 ## Contents to cover in detail
 ### 1. Security Today <a name="security_today"></a>
-- [ ] Spring Security: The what and the why
+- [x] Spring Security: The what and the why
 - [ ] What is software security?
 - [ ] Why is security important?
 - [ ] Common security vulnerabilities in web applications
