@@ -1,5 +1,5 @@
 # Spring Security in Action
-A personal practice to cover Spring Security  based on [this](https://www.amazon.com/Spring-Security-Action-Laurentiu-Spilca/dp/1617297739/ref=sr_1_1?crid=2060OOU6YFSIZ&keywords=Spring+Security+in+action&qid=1659789697&s=books&sprefix=spring+security+in+action%2Cstripbooks-intl-ship%2C274&sr=1-1) book
+A personal practice to cover Spring Security  Based on [this](https://www.amazon.com/Spring-Security-Action-Laurentiu-Spilca/dp/1617297739/ref=sr_1_1?crid=2060OOU6YFSIZ&keywords=Spring+Security+in+action&qid=1659789697&s=books&sprefix=spring+security+in+action%2Cstripbooks-intl-ship%2C274&sr=1-1) book
 
 ![image](https://img.fruugo.com/product/8/86/313921868_max.jpg)
 
