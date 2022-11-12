@@ -29,11 +29,11 @@ A personal practice to cover Spring Security  Based on [this](https://www.amazon
 ## Contents to cover in detail
 ### 1. Security Today <a name="security_today"></a>
 - [x] Spring Security: The what and the why
-- [ ] What is software security?
-- [ ] Why is security important?
-- [ ] Common security vulnerabilities in web applications
-- [ ] Security applied in various architectures
-- [ ] What will you learn in this book?
+- [x] What is software security?
+- [x] Why is security important?
+- [x] Common security vulnerabilities in web applications
+- [x] Security applied in various architectures
+- [x] What will you learn in this book?
 ### 2. Hello Spring Securiy <a name="hello_spring_scurity"></a>
 - [ ] Starting with the first project
 - [ ] Which are the default configurations?
