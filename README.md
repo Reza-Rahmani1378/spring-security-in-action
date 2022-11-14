@@ -35,7 +35,7 @@ A personal practice to cover Spring Security  Based on [this](https://www.amazon
 - [x] Security applied in various architectures
 - [x] What will you learn in this book?
 ### 2. Hello Spring Securiy <a name="hello_spring_scurity"></a>
-- [ ] Starting with the first project
+- [x] Starting with the first project
 - [ ] Which are the default configurations?
 - [ ] Overriding default configurations
 ### 3. Managing users  <a name="managing_users"></a>
