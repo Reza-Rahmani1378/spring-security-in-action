@@ -1,6 +1,7 @@
-/*
 package com.vasl.demo.security.ssia_ch2_ex2.config;
 
+import com.vasl.demo.security.ssia_ch2_ex5.config.CustomAuthenticationProvider;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.SecurityBuilder;
@@ -15,7 +16,10 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @Configuration
+@RequiredArgsConstructor
 public class ProjectConfig extends WebSecurityConfigurerAdapter {
+
+    private final CustomAuthenticationProvider customAuthenticationProvider;
 
     @Bean
     public UserDetailsService userDetailsService() {
@@ -42,17 +46,16 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().permitAll();
     }
 
-*/
-/*    @Override
+    @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
+        /*auth.inMemoryAuthentication()
                 .withUser("john")
                 .password("12345")
                 .authorities("read")
                 .and()
-                .passwordEncoder(NoOpPasswordEncoder.getInstance());
-    }*//*
+                .passwordEncoder(NoOpPasswordEncoder.getInstance());*/
+        auth.authenticationProvider(customAuthenticationProvider);
+    }
 
 
 }
-*/
