@@ -1,3 +1,4 @@
+/*
 package com.vasl.demo.security.ssia_ch2_ex2.config;
 
 import org.springframework.context.annotation.Bean;
@@ -41,6 +42,7 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().permitAll();
     }
 
+*/
 /*    @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
@@ -49,6 +51,8 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
                 .authorities("read")
                 .and()
                 .passwordEncoder(NoOpPasswordEncoder.getInstance());
-    }*/
+    }*//*
+
 
 }
+*/
