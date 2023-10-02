@@ -13,13 +13,17 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
+/**
+ * we can implement UserDetailService and PasswordEncoder with AuthenticationManagerBuilder
+ */
+
 @Configuration
 @RequiredArgsConstructor
 public class ProjectConfig extends WebSecurityConfigurerAdapter {
 
     private final CustomAuthenticationProvider customAuthenticationProvider;
 
-    @Bean
+ /*   @Bean
     public UserDetailsService userDetailsService() {
         var userDetailService =
                 new InMemoryUserDetailsManager();
@@ -36,7 +40,7 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return NoOpPasswordEncoder.getInstance();
-    }
+    }*/
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -44,6 +48,36 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().authenticated();
     }
 
+    /**
+     *
+     * @param auth
+     * In this method you can create userDetails directly.
+     * in this method we should Create Bean for PasswordEncoder
+     * @throws Exception
+     */
+
+  /*  @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        var userDetails = new InMemoryUserDetailsManager();
+        var user = User.withUsername("reza-rez")
+                .authorities("read","write")
+                .password("12345")
+                .build();
+
+
+        userDetails.createUser(user);
+
+        auth.userDetailsService(userDetails);
+    }*/
+
+
+    /**
+     *
+     * @param auth
+     * we can Implement CustomAuthenticationProvider without use any methods in AuthenticationManagerBuilder
+     * @throws Exception
+     *
+     */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         /*auth.inMemoryAuthentication()
