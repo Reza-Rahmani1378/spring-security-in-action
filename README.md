@@ -39,7 +39,7 @@ A personal practice to cover Spring Security  Based on [this](https://www.amazon
 - [x] Which are the default configurations?
 - [x] Overriding default configurations
 ### 3. Managing users  <a name="managing_users"></a>
-- [ ] Implementing authentication in Spring Security
+- [x] Implementing authentication in Spring Security
 - [ ] Describing the user
 - [ ] Instructing Spring Security on how to manage users
 ### 4. Dealing with passwords  <a name="dealing_with_passwords"></a>
